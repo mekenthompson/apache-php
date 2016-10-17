@@ -16,8 +16,8 @@
       "parameters": [],
       "forcePullImage": false,
       "portMappings": [
-        { "hostPort": 0, "containerPort": 80, "servicePort": 10009 }
-      ],
+        { "hostPort": 0, "containerPort": 80, "servicePort": 10009 }
+      ],
 
     }
   },
