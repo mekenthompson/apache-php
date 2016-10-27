@@ -17,7 +17,7 @@
 </head>
 <body>
 	<img id="logo" src="logo.png" />
-	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:"Docker meetup @ MYOB")."!"; ?></h1>
+	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:"Hello Ignite NZ 2016 from Jenkins & DC/OS!")."!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 	<?php
 	$links = [];
