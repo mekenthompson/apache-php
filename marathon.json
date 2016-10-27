@@ -22,7 +22,7 @@
       ],
       "privileged": false,
       "parameters": [],
-      "forcePullImage": true
+      "forcePullImage": false
     }
   },
   "portDefinitions": [
