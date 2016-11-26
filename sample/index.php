@@ -1,4 +1,4 @@
-<html>
+!<html>
 <head>
 	<title>Hello world!</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -17,7 +17,7 @@
 </head>
 <body>
 	<img id="logo" src="logo.png" />
-	<h1><?php echo "".($_ENV["NAME"]?$_ENV["NAME"]:"Hello StartCon Sydney 2016 from Microsoft Azure, care of Jenkins, VS Code, Kubernetes on Azure Container Service & Azure Container Registry!")."!"; ?></h1>
+	<h1><?php echo "".($_ENV["NAME"]?$_ENV["NAME"]:"Hello StartCon Sydney 2016 from Microsoft Azure! Care of Bitnami, Jenkins, VS Code, Kubernetes on Azure Container Service & Azure Container Registry!")."!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 	<?php
 	$links = [];
